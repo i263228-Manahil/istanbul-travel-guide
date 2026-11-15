@@ -1,0 +1,59 @@
+<!-- Name: Manahil Adeel | Roll Number: 26i-3228 | Section: SE-E -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>One-Day Itinerary | Discover Istanbul</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>One-Day Itinerary</h1>
+        <p>A memorable day in Istanbul</p>
+        <nav aria-label="Main navigation">
+            <a href="index.html">Home</a>
+            <a href="itinerary.html" aria-current="page">One-Day Itinerary</a>
+            <a href="places.html">Places to Visit</a>
+            <a href="food.html">Turkish Food</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="intro">
+            <h2>Explore Istanbul in a Day</h2>
+            <p>Use this simple plan to enjoy historic landmarks, a relaxing lunch, and the city's famous waterfront.</p>
+        </section>
+
+        <section class="travel-info">
+            <h2>Your Day at a Glance</h2>
+            <table>
+                <tr><th>Time</th><th>Stop</th><th>What to Do</th></tr>
+                <tr><td>9:00 AM</td><td>Hagia Sophia</td><td>Explore this landmark's remarkable history.</td></tr>
+                <tr><td>11:00 AM</td><td>Blue Mosque</td><td>Admire the domes and tilework; check visiting hours before you go.</td></tr>
+                <tr><td>1:00 PM</td><td>Sultanahmet</td><td>Take a lunch break at a nearby local restaurant.</td></tr>
+                <tr><td>3:00 PM</td><td>Topkapi Palace</td><td>Discover the palace and its gardens.</td></tr>
+                <tr><td>6:00 PM</td><td>Galata Bridge</td><td>Enjoy the waterfront and watch the evening light.</td></tr>
+            </table>
+        </section>
+
+        <section class="fun-fact">
+            <h2>Ready to Explore?</h2>
+            <p>Click the button for a quick reminder before you set out.</p>
+            <button type="button" onclick="showTravelTip()">Show Travel Tip</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>Thank you for exploring Istanbul!</p>
+    </footer>
+
+    <script>
+        function showTravelTip() {
+            console.log("Travel tip button was clicked.");
+            window.alert("Wear comfortable shoes and check opening hours before visiting the landmarks!");
+        }
+    </script>
+</body>
+</html>
