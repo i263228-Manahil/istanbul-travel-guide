@@ -1,0 +1,71 @@
+<!-- Name: Manahil Adeel | Roll Number: 26i-3228 | Section: SE-E -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Places to Visit in Istanbul</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Places to Visit in Istanbul</h1>
+        <p>Discover the city's unforgettable landmarks</p>
+        <nav aria-label="Main navigation">
+            <a href="index.html">Home</a>
+            <a href="itinerary.html">One-Day Itinerary</a>
+            <a href="places.html" aria-current="page">Places to Visit</a>
+            <a href="food.html">Turkish Food</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="intro">
+            <h2>Four Istanbul Icons</h2>
+            <p>From centuries-old monuments to lively market lanes, these places reveal some of Istanbul's most memorable sights.</p>
+        </section>
+
+        <section class="places">
+            <div class="place-container">
+                <article class="place-card">
+                    <h3>Hagia Sophia</h3>
+                    <p>Step into a landmark shaped by empires, where a vast dome and layers of artistic history make every visit feel extraordinary.</p>
+                </article>
+
+                <article class="place-card">
+                    <h3>Blue Mosque</h3>
+                    <p>Known for its graceful domes and elegant minarets, this active mosque is especially striking for the blue Iznik tiles inside.</p>
+                </article>
+
+                <article class="place-card">
+                    <h3>Galata Tower</h3>
+                    <p>Climb above the old rooftops for sweeping views across the Bosphorus and Istanbul's layered skyline.</p>
+                </article>
+
+                <article class="place-card">
+                    <h3>Grand Bazaar</h3>
+                    <p>Wander a maze of covered lanes filled with colorful lamps, ceramics, textiles, and the lively rhythm of traditional trade.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="fun-fact">
+            <h2>Pick Your First Stop</h2>
+            <p>Click the button to get a little inspiration for your Istanbul visit.</p>
+            <button type="button" onclick="showPlaceTip()">Choose a Place</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>Thank you for exploring Istanbul!</p>
+    </footer>
+
+    <script>
+        function showPlaceTip() {
+            console.log("Place inspiration button was clicked.");
+            window.alert("Start in Sultanahmet to see Hagia Sophia and the Blue Mosque close together!");
+        }
+    </script>
+</body>
+</html>
