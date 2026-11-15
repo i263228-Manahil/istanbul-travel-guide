@@ -1,0 +1,152 @@
+<!-- Name: Manahil Adeel | Roll Number: 26i-3228 | Section: SE-E -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Discover Istanbul</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Discover Istanbul</h1>
+        <p>A City Between Two Continents</p>
+    </header>
+
+    <main>
+
+        <section class="intro">
+            <img src="images/istanbul.jpeg"
+                 alt="Beautiful view of Istanbul">
+
+            <h2>Welcome to Istanbul!</h2>
+
+            <p>
+                Istanbul is a beautiful city in Turkey,
+                famous for its rich history, stunning
+                architecture and unique culture.
+            </p>
+        </section>
+
+        <section class="places">
+
+            <h2>Famous Places to Visit</h2>
+
+            <div class="place-container">
+
+                <div class="place-card">
+                    <img src="images/hagia sophia.jpeg"
+                         alt="Hagia Sophia">
+                    <h3>Hagia Sophia</h3>
+                    <p>A historic landmark known
+                    for its impressive architecture.</p>
+                </div>
+
+                <div class="place-card">
+                    <img src="images/blue mosque.jpeg"
+                         alt="Blue Mosque">
+                    <h3>Blue Mosque</h3>
+                    <p>Famous for its beautiful
+                    domes and blue tiles.</p>
+                </div>
+
+                <div class="place-card">
+                    <img src="images/galata tower.jpeg"
+                         alt="Galata Tower">
+                    <h3>Galata Tower</h3>
+                    <p>Offers beautiful views
+                    of Istanbul's skyline.</p>
+                </div>
+
+                <div class="place-card">
+                    <img src="images/topkapi palace.jpeg"
+                         alt="Topkapi Palace">
+                    <h3>Topkapi Palace</h3>
+                    <p>A historic palace that
+                    reflects Ottoman history.</p>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="travel-info">
+
+            <h2>Travel Information</h2>
+
+            <table>
+
+                <tr>
+                    <th>Place</th>
+                    <th>Best Time to Visit</th>
+                    <th>Why Visit?</th>
+                </tr>
+
+                <tr>
+                    <td>Hagia Sophia</td>
+                    <td>Morning</td>
+                    <td>Explore its history</td>
+                </tr>
+
+                <tr>
+                    <td>Blue Mosque</td>
+                    <td>Morning</td>
+                    <td>Admire its architecture</td>
+                </tr>
+
+                <tr>
+                    <td>Galata Tower</td>
+                    <td>Evening</td>
+                    <td>Enjoy city views</td>
+                </tr>
+
+                <tr>
+                    <td>Topkapi Palace</td>
+                    <td>Afternoon</td>
+                    <td>Discover Ottoman history</td>
+                </tr>
+
+            </table>
+
+        </section>
+
+        <section class="fun-fact">
+
+            <h2>Did You Know?</h2>
+
+            <p>
+                Click the button below to discover
+                an interesting fact about Istanbul!
+            </p>
+
+            <button onclick="showFact()">
+                Fun Fact
+            </button>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Thank you for exploring Istanbul!</p>
+    </footer>
+
+    <script>
+        function showFact() {
+
+            console.log("Fun Fact button was clicked.");
+
+            window.alert(
+                "Istanbul is a city that lies in both Europe and Asia!"
+            );
+
+        }
+    </script>
+
+</body>
+</html>
